@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    overflow: hidden;
+    background-image: url(background.jpg);
+    background-size: cover;
+    
+    
+}
+.container{
+    text-align: center;
+    margin: 50px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    
+}
+.button{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    border-bottom: 2px solid rgb(241, 228, 195);
+}
+.btn{
+    margin: 20px;
+    width: 100px;
+    color: rgb(59, 53, 46);
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(241, 228, 195);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 2);
+    
+}
+.container2{
+    
+    align-items: center;
+    
+}
+.timer{
+    display: flex;
+    height: 150px;
+    width: 400px;
+    margin: 50px;
+    justify-content: center;
+    background-color: rgb(241, 228, 195);
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 2);
+    font-size: 110px;
+    color: rgb(59, 53, 46);
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(241, 228, 195);
+    margin: 20px;
+}
+.btn2{
+    margin: 20px;
+    padding: 20px;
+    width: 100px;
+    color: rgb(59, 53, 46);
+    border-radius: 20px;
+    background-color: rgb(250, 238, 209);
+    font-size: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 2);
+    
+}
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    transform: scale(0.99); 
+}
+.active{
+    background-color: rgb(216, 196, 148);
+}
+.inform{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+    text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.5);
+    font-size: xx-large;
+    color: rgb(250, 238, 209);
+}
